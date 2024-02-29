@@ -2,15 +2,12 @@
 <materials>
   <material id="1" name="Rock">
     <density units="g/cm3" value="2.65"/>
-    <nuclide ao="0.25547621360000006" name="Si28"/>
-    <nuclide ao="0.012972353200000002" name="Si29"/>
-    <nuclide ao="0.0085514332" name="Si30"/>
+    <nuclide ao="0.00788695947577376" name="Si28"/>
+    <nuclide ao="0.00040047729904912" name="Si29"/>
+    <nuclide ao="0.00026399642517712" name="Si30"/>
     <nuclide ao="0.622" name="O16"/>
     <nuclide ao="0.101" name="Al27"/>
-    <nuclide ao="0.05845" name="Fe54"/>
-    <nuclide ao="0.91754" name="Fe56"/>
-    <nuclide ao="0.02119" name="Fe57"/>
-    <nuclide ao="0.00282" name="Fe58"/>
+    <nuclide ao="1.0" name="Fe56"/>
   </material>
   <material id="2" name="Water">
     <density units="g/cm3" value="1.0"/>

@@ -1,15 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tallies>
-  <mesh id="38">
-    <dimension>100 100</dimension>
-    <lower_left>-1.5 -1.5</lower_left>
-    <upper_right>1.5 1.5</upper_right>
+  <mesh id="1">
+    <dimension>10 10 5</dimension>
+    <lower_left>-0.75 -0.75 -0.25</lower_left>
+    <upper_right>0.75 0.75 0.25</upper_right>
   </mesh>
-  <filter id="38" type="mesh">
-    <bins>38</bins>
+  <filter id="109" type="mesh">
+    <bins>1</bins>
   </filter>
   <tally id="1" name="flux">
-    <filters>38</filters>
+    <filters>109</filters>
     <scores>flux fission</scores>
+  </tally>
+  <tally id="2" name="transmitted_neutrons">
+    <filters>109</filters>
+    <scores>flux</scores>
+  </tally>
+  <tally id="3" name="backscattered_neutrons">
+    <filters>109</filters>
+    <scores>flux</scores>
   </tally>
 </tallies>

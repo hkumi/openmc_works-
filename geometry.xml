@@ -2,16 +2,16 @@
 <geometry>
   <cell id="1" material="1" name="Cell 1" region="1 -2 3 -4 5 -6" universe="0"/>
   <cell id="2" material="2" name="Cell 2" region="7 -8 9 -10 11 -12" universe="0"/>
-  <surface boundary="reflective" coeffs="-0.75" id="1" type="x-plane"/>
-  <surface boundary="reflective" coeffs="0.75" id="2" type="x-plane"/>
-  <surface boundary="reflective" coeffs="-0.75" id="3" type="y-plane"/>
-  <surface boundary="reflective" coeffs="0.75" id="4" type="y-plane"/>
-  <surface boundary="reflective" coeffs="-0.25" id="5" type="z-plane"/>
-  <surface boundary="reflective" coeffs="0.25" id="6" type="z-plane"/>
-  <surface boundary="reflective" coeffs="-0.75" id="7" type="x-plane"/>
-  <surface boundary="reflective" coeffs="0.75" id="8" type="x-plane"/>
-  <surface boundary="reflective" coeffs="-0.75" id="9" type="y-plane"/>
-  <surface boundary="reflective" coeffs="0.75" id="10" type="y-plane"/>
-  <surface boundary="reflective" coeffs="-0.25" id="11" type="z-plane"/>
-  <surface boundary="reflective" coeffs="0.25" id="12" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="-0.75" id="1" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="0.75" id="2" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="-0.75" id="3" type="y-plane"/>
+  <surface boundary="vacuum" coeffs="0.75" id="4" type="y-plane"/>
+  <surface boundary="vacuum" coeffs="-0.25" id="5" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="0.25" id="6" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="-0.75" id="7" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="0.75" id="8" type="x-plane"/>
+  <surface boundary="vacuum" coeffs="-0.75" id="9" type="y-plane"/>
+  <surface boundary="vacuum" coeffs="0.75" id="10" type="y-plane"/>
+  <surface boundary="vacuum" coeffs="-0.25" id="11" type="z-plane"/>
+  <surface boundary="vacuum" coeffs="0.25" id="12" type="z-plane"/>
 </geometry>
