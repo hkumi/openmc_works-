@@ -16,4 +16,10 @@
     <nuclide ao="1" name="O16"/>
     <sab name="c_H_in_H2O"/>
   </material>
+  <material id="3" name="HDPE_Material">
+    <density units="g/cm3" value="0.93"/>
+    <nuclide ao="1.977844" name="C12"/>
+    <nuclide ao="3.99937704" name="H1"/>
+    <nuclide ao="0.00062296" name="H2"/>
+  </material>
 </materials>
